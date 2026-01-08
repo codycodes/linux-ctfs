@@ -77,126 +77,234 @@ You can safely reboot the VM if needed without losing your progress or breaking 
 Find and read a hidden file in the `ctf_challenges` directory.
 
 - **Skills**: Basic file listing, hidden files concept
-- **Hint**: Hidden files in Linux begin with a special character.
+
+<details>
+<summary>Hint</summary>
+
+Hidden files in Linux begin with a special character.
+
+</details>
 
 ### Challenge 2: The Secret File
 
 Locate a file containing "secret" in its name somewhere under your home directory.
 
 - **Skills**: File searching, directory navigation
-- **Hint**: Use tools that allow you to search through directory structures.
+
+<details>
+<summary>Hint</summary>
+
+Use tools that allow you to search through directory structures.
+
+</details>
 
 ### Challenge 3: The Largest Log
 
 Find and read the contents of an unusually large file in `/var/log`.
 
 - **Skills**: File size analysis, sorting, log navigation
-- **Hint**: Identify a very large file by inspecting file details, and find a way to view it partially so as not to overwhelm your terminal.
+
+<details>
+<summary>Hint</summary>
+
+Identify a very large file by inspecting file details, and find a way to view it partially so as not to overwhelm your terminal.
+
+</details>
 
 ### Challenge 4: The User Detective
 
 A user with UID 1002 has a flag in their login configuration.
 
 - **Skills**: User management, system files, permissions
-- **Hint**: Determine which user this UID corresponds to and check their configuration files.
+
+<details>
+<summary>Hint</summary>
+
+Determine which user this UID corresponds to and check their configuration files.
+
+</details>
 
 ### Challenge 5: The Permissive File
 
 Find a suspicious file with wide-open permissions under `/opt`.
 
 - **Skills**: Permission understanding, file searching
-- **Hint**: Look for files where the permission settings and ownership seem unusually permissive.
+
+<details>
+<summary>Hint</summary>
+
+Look for files where the permission settings and ownership seem unusually permissive.
+
+</details>
 
 ### Challenge 6: The Hidden Service
 
 Something is listening on port `8080`. Connect to it to retrieve the flag.
 
 - **Skills**: Process management, networking tools, service inspection
-- **Hint**: Consider what kind of service might be running on that port and how you’d interact with it.
+
+<details>
+<summary>Hint</summary>
+
+Consider what kind of service might be running on that port and how you'd interact with it.
+
+</details>
 
 ### Challenge 7: The Encoded Secret
 
 Find and decode an encoded flag in the `ctf_challenges` directory.
 
 - **Skills**: Base64 encoding/decoding, command piping
-- **Hint**: Notice that the flag has been processed twice by an encoding algorithm; think about how to reverse this in sequence.
+
+<details>
+<summary>Hint</summary>
+
+Notice that the flag has been processed twice by an encoding algorithm; think about how to reverse this in sequence.
+
+</details>
 
 ### Challenge 8: SSH Key Authentication
 
 Configure SSH key authentication and find a hidden flag.
 
 - **Skills**: SSH configuration, key management, security practices
-- **Hint**: Inspect the SSH directory structure and verify the file permissions to uncover hidden files.
+
+<details>
+<summary>Hint</summary>
+
+Inspect the SSH directory structure and verify the file permissions to uncover hidden files.
+
+</details>
 
 ### Challenge 9: DNS troubleshooting
 
 Someone modified a critical DNS configuration file. Fix it to reveal the flag.
 
 - **Skills**: DNS troubleshooting, file editing
-- **Hint**: Compare the current configuration with its backup to understand what has changed.
+
+<details>
+<summary>Hint</summary>
+
+Compare the current configuration with its backup to understand what has changed.
+
+</details>
 
 ### Challenge 10: Remote upload
 
 Transfer any file to the `ctf_challenges` directory to trigger the flag.
 
 - **Skills**: Upload files to remote servers
-- **Hint**: Make use of standard file transfer methods available to you.
+
+<details>
+<summary>Hint</summary>
+
+Make use of standard file transfer methods available to you.
+
+</details>
 
 ### Challenge 11: Web Configuration
 
 The web server is running on a non-standard port. Find and fix it.
 
 - **Skills**: Nginx configuration, service management
-- **Hint**: Review the web server's configuration files for unusual port assignments and remember to restart the service after making any changes.
+
+<details>
+<summary>Hint</summary>
+
+Review the web server's configuration files for unusual port assignments and remember to restart the service after making any changes.
+
+</details>
 
 ### Challenge 12: Network Traffic Analysis
 
 Someone is sending secret messages via ping packets.
 
 - **Skills**: Network dumps, packet inspection, decoding
-- **Hint**: Utilize general network analysis techniques to inspect traffic and search for concealed information. Check all interfaces and protocols.
+
+<details>
+<summary>Hint</summary>
+
+Utilize general network analysis techniques to inspect traffic and search for concealed information. Check all interfaces and protocols.
+
+</details>
 
 ### Challenge 13: Cron Job Hunter
 
 A scheduled task contains a hidden flag. Find and read it.
 
 - **Skills**: Cron job management, system scheduling, task automation
-- **Hint**: Cron jobs can be scheduled by different users and stored in various locations. Check system-wide cron directories and user-specific crontabs.
+
+<details>
+<summary>Hint</summary>
+
+Cron jobs can be scheduled by different users and stored in various locations. Check system-wide cron directories and user-specific crontabs.
+
+</details>
 
 ### Challenge 14: Process Environment
 
 A running process has a secret stored in its environment. Extract it.
 
 - **Skills**: Process inspection, environment variables, /proc filesystem
-- **Hint**: Every running process has environment variables. Explore how Linux exposes process information through a special filesystem.
+
+<details>
+<summary>Hint</summary>
+
+Every running process has environment variables. Explore how Linux exposes process information through a special filesystem.
+
+</details>
 
 ### Challenge 15: Archive Archaeologist
 
 A flag is buried inside nested archives. Dig it out.
 
 - **Skills**: Archive extraction, tar/gzip handling, file compression
-- **Hint**: Archives can contain other archives. You may need to extract multiple layers to find what you're looking for.
+
+<details>
+<summary>Hint</summary>
+
+Archives can contain other archives. You may need to extract multiple layers to find what you're looking for.
+
+</details>
 
 ### Challenge 16: Symbolic Sleuth
 
 Follow the trail of symbolic links to find the flag.
 
 - **Skills**: Symbolic links, file system navigation, link resolution
-- **Hint**: Symbolic links can point to other links. Use commands that help you trace where links ultimately lead.
+
+<details>
+<summary>Hint</summary>
+
+Symbolic links can point to other links. Use commands that help you trace where links ultimately lead.
+
+</details>
 
 ### Challenge 17: History Mystery
 
 Someone typed a flag in their command history. Find it.
 
 - **Skills**: Bash history, command-line forensics, user activity tracking
-- **Hint**: Command history is often stored in hidden files in user home directories. Multiple users may have history files.
+
+<details>
+<summary>Hint</summary>
+
+Command history is often stored in hidden files in user home directories. Multiple users may have history files.
+
+</details>
 
 ### Challenge 18: Disk Detective
 
 A flag is hidden in filesystem metadata. Investigate mounted filesystems.
 
 - **Skills**: Disk management, mount points, filesystem labels
-- **Hint**: Filesystems have labels and metadata beyond just file contents. Check how disks are mounted and what information they expose.
+
+<details>
+<summary>Hint</summary>
+
+Filesystems have labels and metadata beyond just file contents. Check how disks are mounted and what information they expose.
+
+</details>
 
 ## Tips
 
